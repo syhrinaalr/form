@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h2>Form Registrasi</h2>
+    <fieldset>
+        <legend>Biodata</legend>
+        <form>
+            <table>
+                <tr>
+                    <td>nama mahasiswa</td>
+                    <td>:</td>
+                    <td><input type="text" size="20" placeholder="Nama Anda"></td>
+                </tr>
+                <tr>
+                    <td>no induk mahasiswa (nim)</td>
+                    <td>:</td>
+                    <td><input type="text" size="20" placeholder="1204210046"></td>
+                </tr>
+                <tr>
+                    <td>Alamat Mahasiswa</td>
+                    <td>:</td>
+                    <td> <textarea name="textarea_form" cols=30" rows="5" placeholder="Alamat Anda"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td>
+                        <select name="pilihan">
+                            <option value=1 selected>01</option>
+                            <option value=2>02</option>
+                            <option value=3>03</option>
+                            <option value=4>04</option>
+                            <option value=5>05</option>
+                        </select>
+                        <select name="pilihan">
+                            <option value=1 selected>Januari</option>
+                            <option value=2>Februari</option>
+                            <option value=3>Maret</option>
+                            <option value=4>0April</option>
+                            <option value=5>Mei</option>>
+                        </select>
+                        <select name="pilihan">
+                            <option value=1 selected>1990</option>
+                            <option value=2>01991</option>
+                            <option value=3>1992</option>
+                            <option value=4>1993</option>
+                            <option value=5>1994</option>>
+                        </select>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="radio" value="radio1" id="radio1" checked><label for="radio1">Pria</label>
+                <input type="radio" name="radio" value="radio2" id="radio2"><label for="radio2">Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Foto</td>
+                    <td>:</td>
+                    <td>
+                        <input type="file" name="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>URL Website</td>
+                    <td>:</td>
+                    <td><input type="text" size="20" placeholder="URL Website Anda"></td>
+                </tr>
+                <tr>
+                    <td>Perguruan Tinggi</td>
+                    <td>:</td>
+                    <td><input type="text" size="20" ></td>
+                </tr>
+            </table>
+            </form>
+    </fieldset>
+    <fieldset>
+        <legend>Info Akun</legend>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="email" size="20" placeholder="Email Anda"></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td>:</td>
+                    <td><input type="text" size="20" placeholder="Username Anda"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="password" size="20" placeholder="Password Anda"></td>
+                </tr>
+                <tr>
+                    <td>Ulangi Password</td>
+                    <td>:</td>
+                    <td><input type="password" size="20" placeholder="Password Anda"></td>
+                </tr>
+            </table>
+    </fieldset>
+    <fieldset>
+        <legend>Kemampuan Dasar</legend>
+            <tr>
+                <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1"><label for="checkbox1">HTML</label>
+                <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label for="checkbox2">CSS</label>
+                <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1"><label for="checkbox1">JavaScript</label>
+                <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label for="checkbox2">PHP</label>
+                <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1"><label for="checkbox1">MySQL</label>
+                <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2"><label for="checkbox2">Laravel</label>
+                <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1"><label for="checkbox1">React Native</label> 
+            </tr>
+    </fieldset>
+    <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Simpan">
+        <input type="button" value="Button" onclick="">
+    </p>
+ </form>
+</body>
+</html>
